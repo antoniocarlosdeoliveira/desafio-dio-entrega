@@ -1,0 +1,42 @@
+body{
+    background-color: antiquewhite;
+}
+
+/*Título*/
+#first-title{
+    text-align: center;
+    font-size: 36px;
+
+}
+
+/*Parágrafo*/
+.paragraph-first-title{
+    padding-top: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+    font-size: 22px;
+}
+
+/*botão chamada para o portfólio*/
+div#button{
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Botão portfólio*/
+.button-portfolio{
+    background-color: blue;
+    color: #FFFFFF;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-portfolio:hover{
+    color: rgb(220, 235, 179);
+    background-color: red;
+    border-radius: 0 20px 0 20px;
+}
